@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-evva
     spec:
       containers:
-      - image: nodejs-image:latest
+      - image: quay.io/pmacik-testing/tkrw-pr712-0075-0060-tenant/tkrw-pr712-0075-0060-app/devfile-sample-evva@sha256:d7f1132a25c133c8f18f607ff5d1be22a61e127484f8cac7f622699402c14a24
         name: my-nodejs
         ports:
         - containerPort: 3001
